@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/newStyle.css">
 </head>
 <body>
     <header>
@@ -17,70 +17,87 @@
                     <ul>
                         <li>header link one</li>
                         <li>header link two</li>
-                        <li>heade link three</li>
+                        <li>header link three</li>
                     </ul>
                 </div>
             </nav>
 
             <div class="banner">
                 <div class="banner-left">
-                    <h1>This website is awesome</h1>
-                    <p>
-                        This website has some subtext that goes here under the main title.
-                        It's a smaller font and the color is lower contrast
-                    </p>
-                    <button>Sign up</button>
-                   
+                    <h1>Dogs are not our whole life, but they make our lives whole.</h1>
+                    <p><em>
+                        Did you ever walk into a room and forget why you walked in? 
+                        I think that is how dogs spend their lives.
+                    </em></p>
+                    <button>Sign up</button>  
                 </div>
 
                 <div class="banner-right">
-                    This is a placeholder for an image
+                   <img class="banner-image" src="./images/pixabay.jpg" alt="header picture">
                 </div>
+                   
             </div>
         </div>
-
-
     </header>
 
 
     <section class="infomation">
 
-        <div class="info-section container">
-            <h1>Some random Infomation.</h1>
+        <div id="Breeds" class="photo-section container">
+            <h1>Gallery</h1>
     
-            <div class="info-boxes">
-                <div class="box-wrapper">
-                    <div class="box-icon"></div>
-                    <p>this is some subtext under an illustration or image</p>
+            <div class="photo-boxes">
+
+                <div class="panel active" style="background-image: url(./images/one.jpg)">
+                    <h3>Awesome</h3>
                 </div>
-                <div class="box-wrapper">
-                    <div class="box-icon"></div>
-                    <p>this is some subtext under an illustration or image</p>
+        
+                <div class="panel" style="background-image: url(./images/two.jpg)">
+                    <h3>Fierce</h3>
                 </div>
-                <div class="box-wrapper">
-                    <div class="box-icon"></div>
-                    <p>this is some subtext under an illustration or image</p>
+        
+                <div class="panel" style="background-image: url(./images/three.jpg)">
+                    <h3>Friendship</h3>
                 </div>
-                <div class="box-wrapper">
-                    <div class="box-icon"></div>
-                    <p>this is some subtext under an illustration or image</p>
+        
+                <div class="panel" style="background-image: url(./images/four.jpg)">
+                    <h3>Love</h3>
                 </div>
+        
+                <div class="panel" style="background-image: url(./images/five.jpg)">
+                 <h3>Play Hard</h3>
+                </div>
+
+                <div class="panel" style="background-image: url(./images/six.jpg)">
+                    <h3>Attention</h3>
+                </div>
+        
+                <div class="panel" style="background-image: url(./images/seven.jpg)">
+                    <h3>Breathtaking</h3>
+                </div>
+        
+                <div class="panel" style="background-image: url(./images/eight.jpg)">
+                 <h3>Chill</h3>
+                </div>
+
+                <div class="panel" style="background-image: url(./images/nine.jpg)">
+                 <h3>Netflix</h3>
+                </div>
+        
             </div>
         </div>
     
         <div class="quotes">
             <div class="container">
                 <p class="quotes-p">
-                    This is an inspiring quote, or a testimonial from a customer. 
-                    Maybe it's just filling up space, or maybe people will actually 
-                    read it. Who knows? All i know is that it looks nice.
+                    “A well trained dog will make no attempt to share your lunch. He will just make you feel so guilty that you cannot enjoy it.”
                 </p>
-                <p class="author">-Thor</p>
+                <p class="author">-Helen Thomson</p>
             </div>
     
         </div>
-    
-        <div class="container">
+      
+        <div class="action-box">
             <div class="action">
                 <div class="action-text">
                     <h1>Call to action! it's time!</h1>
@@ -92,21 +109,18 @@
     
                 <div class="action-btn">
                     <button>Sign up</button>
-                </div>
-                
-            </div>
-           
+                </div>     
+            </div>  
         </div>
 
     </section>
     
-
-    <footer>
-
-        <p>Copyright © </p>
-
-    </footer>
-
+    <section id="footer">
+        <footer>
+            <p>Copyright © </p>
+        </footer>
+    </section>
+   <script src="./script.js"></script>
 </body>
 </html>
 
