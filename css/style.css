@@ -41,9 +41,7 @@ nav {
     flex-wrap: wrap;
     flex: 1;
     gap: 1rem;
-    /* min-height: 3rem; */
     margin-bottom: 3rem;
-    margin-top: 0.5rem;
 }
 
 nav .logo {
